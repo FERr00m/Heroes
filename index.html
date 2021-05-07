@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/animate.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="apple-touch-icon" sizes="57x57" href="./favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="./favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <script src="scripts/script.js" defer></script>
+  <title>Heroes</title>
+</head>
+<body>
+  
+  <main class="main">
+
+    <h1 class="main-title animate__animated animate__delay-1s animate__zoomIn ">Heroes</h1>
+    
+    <div class="navigation-wrapper">
+      <select id="films" class="animate__animated animate__delay-1s animate__fadeIn">
+        <option value="">&mdash; Choose movie &mdash;</option>
+      </select>
+      
+      <button id="show-all" class="animate__animated animate__delay-1s animate__fadeIn">Show all Heroes</button>
+
+      <img src="./img/speaker.svg" alt="speaker" height="50" width="50" class="speaker animate__animated animate__delay-3s animate__pulse animate__infinite">
+      <audio autoplay="autoplay" controls="controls" loop="loop" id="audio">
+        <source src="./music/Daniel_James_Phantom_Pain.mp3" type="audio/mpeg">
+        Тег audio не поддерживается вашим браузером. 
+        <a href="./music/Daniel_James_Phantom_Pain.mp3">Скачайте музыку</a>.
+      </audio>
+    </div>
+
+    <h2 id="title-movie"></h2>
+    
+    <section class="cards">
+
+    </section>
+  </main>
+</body>
+</html>
