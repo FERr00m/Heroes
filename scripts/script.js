@@ -8,7 +8,7 @@ window.addEventListener('DOMContentLoaded', () => {
     audio = document.getElementById('audio'),
     speaker = document.querySelector('.speaker');
 
-  const getData = () => fetch('../dbHeroes.json');
+  const getData = () => fetch('./dbHeroes.json');
 
 
   //spekerListener
